@@ -1,3 +1,7 @@
+![java](https://img.shields.io/badge/Java-17-red)
+
+# Java Playground
+
 ## package name
 ### payment
 > 할인율계산 예제를 통한 코드개선
