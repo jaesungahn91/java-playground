@@ -1,17 +1,14 @@
-package io.github.js.jmh;
+package io.github.js.etc;
 
-import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.Scope;
-import org.openjdk.jmh.annotations.State;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@State(Scope.Benchmark)
 public class ParallelStreamTest {
 
-    @Benchmark
+    @Test
     void stream() {
         List<Integer> listOfNumbers = List.of(1, 2, 3, 4);
         int sum = listOfNumbers.stream().reduce(5, Integer::sum);
@@ -19,7 +16,7 @@ public class ParallelStreamTest {
         assertThat(sum).isEqualTo(15);
     }
 
-    @Benchmark
+    @Test
     void parallelStream() {
         List<Integer> listOfNumbers = List.of(1, 2, 3, 4);
         int sum = listOfNumbers.parallelStream().reduce(5, Integer::sum);
