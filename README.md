@@ -16,7 +16,7 @@
 ### enums 
 > Java Enum 활용기
 
-### JMH
+### jmh
 > 성능 벤치마킹
 
 ### callbyvalue
