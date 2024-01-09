@@ -3,7 +3,7 @@ package io.github.js.callbyvalue;
 import java.util.Arrays;
 
 /**
- * 자바 창시자인 제임스 고슬링은 수많은  parameter passing 방법이 있지만 자바에는 간단하게 "call by value"만을 참고했다고 한다.
+ * 자바 창시자인 제임스 고슬링은 수많은 parameter passing 방법이 있지만 자바에는 간단하게 "call by value"만을 참고했다고 한다.
  * -The Java Programming Language, 2nd ed. by Ken Arnold and James Gosling, section 2.6.1, page 40, 3rd paragraph.
  * <p>
  * <p>
